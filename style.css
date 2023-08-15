@@ -2,7 +2,7 @@
     body{
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    header {
+    h1 {
         background: yellow;
         color: black;
         text-align: center;
@@ -10,6 +10,23 @@
         margin-right: 100px;
         border-radius:100px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    img{
+        cursor: pointer;
+        margin-left: 500px;
+    }
+    img:active{
+        transform: translateY(10px);
+        background-color: #F8DE22;
+    }
+    h6{
+        font-family: monospace;
+        font-size: 13px;
+    }
+    h4{
+        font-family: monospace;
+        text-align: center;
+        font-size: 13px;
     }
     .input-section{
         display:flex;

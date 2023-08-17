@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Kalkulator Segitiga</title>
 </head>
+<header>WELCOME TO KALTIK!</header>
+<h4>Hai Sobat,Selamat datang di Katik </h4>
+<h4>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling segitiga</h4>
 <body>
-    <header>
-        <h1>KELILING SEGITIGA</h1>
-    </header>
+    <h1>KELILING SEGITIGA</h1>
     
     <main>
         <img src="segitiga 1.png" alt="segitiga sama kaki" width="150" height="150">
@@ -27,19 +27,50 @@
         <p>b =  sisi b</p>
         <p>c = sisi c</p>
     </h6>
-        <section class="input-section">
+        <form action="#" class="input-section">
             <label for="sisi a-input">Panjang Sisi a</label>
             <input type="number" id="sisi a-input" placeholder="0">
             <label for="sisi b-input">Panjang Sisi b</label>
             <input type="number" id="sisi b-input" placeholder="0">
             <label for="sisi c-input">Panjang Sisi c</label>
             <input type="number" id="sisi c-input" placeholder="0">
-            
-
-        </section>
-        <button> Go to Hitung Luas</button>
-        <button onclick="KelilingSegitiga">Hitung</button>
-        <button>Reset</button>
+        </form>
+        <button id="Hitung">Hitung</button>
+        <label id="clabel"></label>
     </main>
 </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+    <h1>LUAS SEGITIGA</h1>
+    
+    <main>
+        <img src="segitiga 1.png" alt="segitiga sama kaki" width="150" height="150">
+        <h6>
+            <p>Rumus luas segitiga yaitu:</p>
+        </h6>
+    <h4>
+        <p>L = 1/2 x a x t</p>
+    </h4>
+    <h6>
+        <p>Di mana:</p>
+        <p>L = Luas</p>
+        <p>a = alas</p>
+        <p>t = tinggi</p>
+    </h6>
+        <form action="#" class="input-section">
+            <label for="alas-input">Alas Segitiga</label>
+            <input type="number" id="alas-input" placeholder="0">
+            <label for="tinggi-input">Tinggi Segitiga</label>
+            <input type="number" id="tinggi-input" placeholder="0">
+        </form>
+        <button id="hitung">Hitung</button>
+        <label id="Luaslabel"></label>
+    </main>
+</body>
+<script src="js/script.js"></script>
 </html>

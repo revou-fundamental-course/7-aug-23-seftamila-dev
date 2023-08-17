@@ -1,4 +1,14 @@
 
+    header{
+        color: black;
+        text-align: center;
+        margin-left: 100px; 
+        margin-right: 100px;
+        border-radius:100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 50px;
+
+    }
     body{
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
@@ -81,4 +91,11 @@
     transform: translateY(10px);
     background-color: #F8DE22;
 
+   }
+
+
+   @media screen and (max-width: 100px){
+    header {
+        color: red;
+    }
    }

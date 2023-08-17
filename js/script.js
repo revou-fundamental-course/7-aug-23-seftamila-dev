@@ -42,3 +42,16 @@ document.getElementById("Hitung-Luas").onclick = function Luas(){
     document.getElementById("Luaslabel").innerHTML='Luas Segitiga adalah: '+ c;
 }
 
+function resetkeliling(){
+    document.getElementById("sisi a-input").value="";
+    document.getElementById("sisi b-input").value="";
+    document.getElementById("sisi c-input").value="";
+    document.getElementById("reset-keliling").innerHTML="";
+}
+
+function resetluas(){
+    document.getElementById("tinggi-input").value="";
+    document.getElementById("alas-input").value="";
+    document.getElementById("reset-luas").innerHTML="";
+}
+

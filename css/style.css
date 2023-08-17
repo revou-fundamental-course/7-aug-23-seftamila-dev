@@ -23,7 +23,9 @@
     }
     img{
         cursor: pointer;
-        margin-left: 700px; 
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
     }
     img:active{
         transform: translateY(10px);

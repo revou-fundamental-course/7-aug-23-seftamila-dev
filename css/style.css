@@ -23,7 +23,7 @@
     }
     img{
         cursor: pointer;
-        margin-left: 500px;
+        margin-left: 700px; 
     }
     img:active{
         transform: translateY(10px);

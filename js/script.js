@@ -1,19 +1,19 @@
 function validate() {
   
-    var user = document.getElementById("e").value;
-    var user2 = document.getElementById("e");
-    var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (re.test(user)) {
+    var sisiA = document.getElementById("input-sisi a");
+    var sisiB = document.getElementById("input sisi-b");
+    var regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (regex.test(sisiA)) {
         alert("done");
         return true;
     }
     else{
-        user2.style.border = "red solid 3px";
+        sisiB.style.border = "red solid 3px";
         return false;
     }
 }
 
-document.getElementById("Hitung").onclick = function kel(){
+document.getElementById("Hitung-Keliling").onclick = function kel(){
     var s1;
     var s2;
     var s3;
@@ -26,10 +26,10 @@ document.getElementById("Hitung").onclick = function kel(){
 
     var h= parseInt(s1)+parseInt(s2)+parseInt(s3);
     console.log(h)
-    document.getElementById("clabel").innerHTML='Keliling Segitiga adalah: '+ h ;
+    document.getElementById("Kelilinglabel").innerHTML='Keliling Segitiga adalah: '+ h ;
 }
 
-document.getElementById("hitung").onclick = function Luas(){
+document.getElementById("Hitung-Luas").onclick = function Luas(){
     var a;
     var b;
     var c;
